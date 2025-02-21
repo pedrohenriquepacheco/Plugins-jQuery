@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro - Módulo 10</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:wght@400;700&display=swap' rel='stylesheet'>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+</head>
+<body>
+    <header>
+        <div class="dive">
+            <h1>Adquira seu veículo agora mesmo!</h1>
+    <div class="menu-hamburguer">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    </div>
+    <nav>
+        <div class="dive">
+            <ul>
+                <li>
+                    <a href="#">Em destaque</a>
+                </li>
+                <li>
+                    <a href="#">contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    </header>
+
+    <div id="carousel-imagens">
+        <img src="./assets/1920-x-1080-car-ej4xl5jnhkvh8nc4.jpg" alt="Carro 1"  class="slick-slide" data-slick-index="0" aria-hidden="true" tabindex="-1" style="width: 773px;">
+        <img src="./assets/1920-x-1080-car-4sdj5tojfx747aly.jpg" alt="Carro 2"  class="slick-slide" data-slick-index="0" aria-hidden="true" tabindex="-1" style="width: 773px;">
+        <img src="./assets/1920-x-1080-car-2sinfuk80mtha5vo.jpg" alt="Carro 3"  class="slick-slide" data-slick-index="0" aria-hidden="true" tabindex="-1" style="width: 773px;">
+        <img src="./assets/1920-x-1080-car-0w27rcjva8mg4fpl.jpg" alt="Carro 4"  class="slick-slide" data-slick-index="0" aria-hidden="true" tabindex="-1" style="width: 773px;">
+        <img src="./assets/cars-1920-x-1080-picture-1xvl1lvllnemyt5m.jpg" alt="Carro 5"  class="slick-slide" data-slick-index="0" aria-hidden="true" tabindex="-1" style="width: 773px;">
+        <img src="./assets/cars-1920-x-1080-picture-822uid735qbpglr4.jpg" alt="Carro 6"  class="slick-slide" data-slick-index="0" aria-hidden="true" tabindex="-1" style="width: 773px;">
+    </div>
+
+    <div class="container">
+        <h2>Insira seus dados para finalização da compra</h2>
+        <section>
+            <form id="form">
+                <div class="form-campo">
+                    <label for="nome">Nome completo</label>
+                    <input type="text" id="nome" name="nome" required placeholder="Seu Nome">
+                </div>
+                <div class="form-campo">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" required placeholder="email@exemplo.com">
+                </div>
+                <div class="form-campo">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" name="telefone" required placeholder="Seu numero de telefone">
+                </div>
+                <div class="form-campo">
+                    <label for="cpf">CPF</label>
+                    <input type="text" id="cpf" name="cpf" required placeholder="Insira seu cpf">
+                </div>
+                <div class="form-campo">
+                    <label for="endereco">Endereço completo</label>
+                    <input type="text" id="endereco" name="endereco" required placeholder="Rua, número, bairro, cidade, estado">
+                </div>
+                <div class="form-campo">
+                    <label for="cep">CEP</label>
+                    <input type="text" id="cep" name="cep" required placeholder="Insira seu cep">
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+        </section>
+        <footer>
+            <div class="container-id container-flex">
+                <p>
+                    2025 &copy; PH veiculos - Todos os diretos reservados
+                </p>
+                <ul class="container-flex">
+                    <li>
+                        <a href="#">
+                            <img src="./icones/facebook.png" alt="Facebook">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./icones/youtube.png" alt="Youtube">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./icones/instagram.png" alt="Instagram">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
